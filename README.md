@@ -1,3 +1,53 @@
+# Medical Information Dashboard
+
+A React-based medical dashboard application that allows users to enter and manage patient information including:
+- Patient Name
+- Diseases
+- Drug Name
+- Date
+
+## Features
+- Clean and modern UI using Material-UI
+- Form validation using Formik and Yup
+- Date picker for easy date selection
+- Responsive design that works on all screen sizes
+
+## Technologies Used
+- React
+- Material-UI
+- Formik
+- Yup
+- date-fns
+
+## Getting Started
+
+1. Clone the repository
+```bash
+git clone [your-repository-url]
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Project Structure
+```
+src/
+  ├── components/
+  │   └── MedicalDashboard.js
+  ├── App.js
+  ├── index.js
+  └── index.css
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
